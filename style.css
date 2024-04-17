@@ -19,10 +19,7 @@ header {
 }
 
 nav ul {
-    margin: 0px;
-    padding: 0px;
     display: flex;
-    overflow: hidden;
     list-style-type: none;
     justify-content: space-between;
 }
@@ -208,4 +205,33 @@ footer {
     position: absolute;
     text-align: center;
     color: rgba(245, 75, 100, 1);
+}
+
+@media (max-width: 1329px) {
+    header {
+        width: 40%;
+        height: 60px;
+        line-height: 52px;
+        margin: 20px auto;
+        background: linear-gradient(90deg, rgba(245, 75, 100, 1) 0%, rgba(247, 131, 97, 1) 100%);
+        ;
+    }
+    nav ul li {
+        width: 20%;
+        padding: 4px;
+    }
+
+    nav ul li a{
+        font-size: .8em;
+    }
+}
+@media (max-width: 1230px) {
+    nav ul li a{
+        font-size: .7em;
+    }
+}
+@media (max-width: 1088px) {
+    nav ul li a{
+        font-size: .6em;
+    }
 }
