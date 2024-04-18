@@ -66,6 +66,7 @@ body {
     background-blend-mode: multiply;
     background-image: url('hero.jpg');
     background-color: rgba(247, 131, 97, 1);
+    background-repeat: no-repeat;
 }
 
 .home {
