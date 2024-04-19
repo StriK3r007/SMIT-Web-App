@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../style.css">
+    <link rel="stylesheet" href="./../form.css">
+    <title>Form 2</title>
+</head>
+<body>
+    <aside class="u-aside">
+        <nav>
+            <ul>
+                <li>
+                    <a href="./../index.html">Home</a>
+                    <a href="./form1.html">Form 1</a>
+                    <a class="active" href="./form2.html">Form 2</a>
+                    <a href="./table.html">Table</a>
+                </li>
+            </ul>
+        </nav>
+        <div>
+            <code>WMA-243702</code>
+        </div>
+    </aside>
+    <main>
+        <section>
+            <div>
+                <h2>
+                    Novell Services Login
+                </h2>
+            </div>
+            <div class="my-form">
+                <form action="">
+                    <div class="d-flex">
+                        <label>Username</label>
+                        <input type="text" placeholder="John Doe">
+                    </div>
+                    <div class="d-flex">
+                        <label>Password</label>
+                        <input type="password">
+                    </div>
+                    <div class="d-flex">
+                        <label>City of Employment</label>
+                        <input type="text">
+                    </div>
+                    <div class="d-flex">
+                        <label>Web Server</label>
+                        <select name="" id="">
+                            <option selected>-- Choose a Server --</option>
+                            <option>Apache</option>
+                            <option>Nginx</option>
+                            <option>IIS</option>
+                            <option>Google</option>
+                        </select>
+                    </div>
+                    <div class="d-flex">
+                        <label>Please specify your role</label>
+                        <div>
+                            <input type="radio" name="role" value="male">Admin
+                            <input type="radio" name="role" value="female">Engineer
+                            <input type="radio" name="role" value="others">Manager
+                            <input type="radio" name="role" value="others">Guest
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <label>Single Sign-on to the following</label>
+                        <div>
+                            <input type="radio" name="role" value="male">Mail
+                            <input type="radio" name="role" value="female">Payroll
+                            <input type="radio" name="role" value="others">Self-service
+                        </div>
+                    </div>
+                    <div>
+                        <center>
+                            <input type="submit" value="Login">
+                            <input type="reset" value="Reset">
+                        </center>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
